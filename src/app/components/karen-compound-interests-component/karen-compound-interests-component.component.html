@@ -1,0 +1,7 @@
+<h3>Juros Compostos (JC = C.(1-i)^n):</h3>
+<div>
+  <input [(ngModel)]="capital" type="number"> * 
+  (1 - <input [(ngModel)]="taxa" type="number">) ^
+  <input [(ngModel)]="tempo" type="number"> = {{getCompoundInterests()}}
+</div>
+
